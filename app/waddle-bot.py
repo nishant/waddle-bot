@@ -1,5 +1,7 @@
 import discord
 
+from app.secret.secrets import *
+
 client = discord.Client()
 
 
@@ -17,4 +19,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 
-client.run('Njg5Njc2MTk3MTg1MTkxOTM4.XnGV-g.HaasCsYFrY87F8i9OYJfOYmCjbw')
+client.run(get_discord_token())
