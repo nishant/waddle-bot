@@ -35,3 +35,14 @@ test commit
             * List queue
             * Remove from queue (by rank)
             * Add to top of queue
+
+
+#### Look Into:
+* (2) python poetry -> creating a project + venv
+* (4) black, autopep8
+* (5) pylint, flake8
+* (6) precommit
+* (1) pyenv
+* (7) mypy -> typechecker
+* (3) pytest
+
